@@ -6,11 +6,12 @@
   padding: 0;
 }
 
-body {
+body, html {
     font-family: 'Poppins', sans-serif;
+    height: 100%;
 }
 
-.container {
+.App {
     margin: auto;
     overflow: auto;
     min-height: 300px;
@@ -18,10 +19,10 @@ body {
 }
 
 .header {
+    position: sticky;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 20px;
     border: 1px solid steelblue;
     background-color: aquamarine;
 }
@@ -46,14 +47,46 @@ body {
     font-family: inherit;
 }
 
-.footer {
-    justify-content: space-between;
+.body {
     margin-bottom: 30px;
+}
+
+.body div.profileBackground {
+    width: 100%;
+    height: 500px;
+    
+    background-image: url(./assets/longan.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.body div.profileBackground div.profileText {
+    padding-top: 300px;
+    text-align: center;
+    color: floralwhite;
+}
+
+.body div.aboutMe {
+    margin: 5px;
+}
+
+
+.footer {
+    margin-top: 20px;
+    min-height: 100px;
+    bottom: 0px;
+    width: 100%;
     text-align: center;
     background-color: aquamarine;
 }
 
+.footer div.copyright {
+    padding-top: 70px;
+}
+
 .SMLogo {
+    margin: 10px;
     width: 50px;
     height: 50px;
 }

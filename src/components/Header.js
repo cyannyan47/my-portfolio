@@ -1,17 +1,24 @@
 import PropTypes from 'prop-types'
-import Button from './Button'
+
+import { ReactComponent as GithubLogo } from '../assets/github.svg'
+import { ReactComponent as LinkedInLogo} from '../assets/linkedin.svg'
+import { ReactComponent as FacebookLogo} from '../assets/facebook.svg'
 
 const Header = ({ name }) => {
-    const onClick = () => {
-        console.log("Button pressed")
-    }
 
     return (
         <div className='header'>
             <h1 className="logo">{name}</h1>
             <div className="header-right">
-                <Button onClick={onClick} text={"HOME"} />
-                <Button onClick={onClick} text={"CONTACT ME"} />
+                <a href="https://www.facebook.com/minh.dinhquang.923/">
+                    <FacebookLogo className="SMLogo" />
+                </a>
+                <a href="https://github.com/cyannyan47">
+                    <GithubLogo className="SMLogo" />
+                </a>
+                <a href="https://www.linkedin.com/in/minhdinh98/">
+                    <LinkedInLogo className="SMLogo" />
+                </a>
             </div>
         </div>
     )
