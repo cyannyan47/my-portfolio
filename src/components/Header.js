@@ -8,7 +8,10 @@ const Header = ({ name }) => {
 
     return (
         <div className='header'>
-            <h1 className="logo">{name}</h1>
+            <a href='/'>
+                <h1 className="logo">{name}</h1>
+            </a>
+            
             <div className="header-right">
                 <a href="https://www.facebook.com/minh.dinhquang.923/">
                     <FacebookLogo className="SMLogo" />

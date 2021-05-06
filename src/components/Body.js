@@ -5,7 +5,7 @@ const Body = () => {
                 <div className="profileText">
                     <h1>Hello World</h1>
                     <h1>My name is Minh Dinh</h1>
-                    <p>Computer Engineer | TFT Gamer </p>
+                    <p>Computer Engineer | Rhythm Gamer </p>
                 </div>
             </div>
         </div>

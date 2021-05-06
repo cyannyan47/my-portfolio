@@ -20,7 +20,7 @@ const WorkExperiences = () => {
         )
     }
     return (
-        <div>
+        <div className="workExpsContainer">
             <h1>Work Experiences</h1>
             <CardDeck style={{ textAlign: 'center', display: 'flex', justifyContent: 'center', width: '100%'}} className="grid">{cardList.map(renderCard)}</CardDeck>
         </div>

@@ -19,7 +19,9 @@ body, html {
 }
 
 .header {
-    position: sticky;
+    width: 100%;
+    z-index: 9999;
+    position: fixed;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -33,19 +35,6 @@ body, html {
     font-weight: bold;
 }
 
-.header button {
-    display: inline-block;
-    background: #000;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    margin: 5px;
-    border-radius: 5px;
-    cursor: pointer;
-    text-decoration: none;
-    font-size: 15px;
-    font-family: inherit;
-}
 
 .body {
     margin-bottom: 30px;
@@ -53,7 +42,7 @@ body, html {
 
 .body div.profileBackground {
     width: 100%;
-    height: 500px;
+    height: 700px;
     
     background-image: url(./assets/longan.jpg);
     background-position: center;
@@ -62,7 +51,7 @@ body, html {
 }
 
 .body div.profileBackground div.profileText {
-    padding-top: 300px;
+    padding-top: 350px;
     text-align: center;
     color: floralwhite;
 }
@@ -77,16 +66,25 @@ body, html {
     margin: 5px;
 }
 
-.aboutMeContainer div.aboutMe img.aboutMePic {
-    height: 200px;
-    width: 200px;
+.aboutMeContainer div.aboutMe div.aboutMePic {
     border: aquamarine;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 50px;
 }
 
 .aboutMeContainer div.aboutMe div.aboutMeContent {
     margin: 10px;
+    border: aquamarine;
 }
 
+.workExpsContainer {
+    margin: 10px;
+}
+
+.projectsContainer {
+    margin: 10px;
+}
 
 .footer {
     margin-top: 20px;
