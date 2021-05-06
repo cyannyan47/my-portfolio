@@ -67,8 +67,24 @@ body, html {
     color: floralwhite;
 }
 
-.body div.aboutMe {
+.aboutMeContainer {
+    margin: 10px;
+}
+
+.aboutMeContainer div.aboutMe {
+    display: flex;
+    justify-content: center;
     margin: 5px;
+}
+
+.aboutMeContainer div.aboutMe img.aboutMePic {
+    height: 200px;
+    width: 200px;
+    border: aquamarine;
+}
+
+.aboutMeContainer div.aboutMe div.aboutMeContent {
+    margin: 10px;
 }
 
 

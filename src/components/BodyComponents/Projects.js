@@ -3,7 +3,7 @@ import {Card, CardDeck} from 'react-bootstrap'
 const Projects = () => {
     const cardList = [
         {title: "Embedded peer-to-peer text chat", text: "ENSC 452"},
-        {title: "AES-128 core integration", text: "ENSC 450"},
+        {title: "AES-128 SoC integration", text: "ENSC 450"},
         {title: "Movie Recommendation System", text: "nwHacks 2021"},
     ]
 
