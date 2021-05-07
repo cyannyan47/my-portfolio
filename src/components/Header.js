@@ -8,9 +8,7 @@ const Header = ({ name }) => {
 
     return (
         <div className='header'>
-            <a href='/'>
-                <h1 className="logo">{name}</h1>
-            </a>
+            <h1 className="logo">{name}</h1>
             
             <div className="header-right">
                 <a href="https://www.facebook.com/minh.dinhquang.923/">
